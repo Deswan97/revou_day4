@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flex Box</title>
+    <style>
+      .container {
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+      }
+      .container div {
+        width: 100px;
+        padding: 10px;
+        text-align: center;
+        font-size: 14sp;
+        color: yellowgreen;
+        border: 2px solid;
+        background-color: green;
+      }
+
+      /* style u/ box-sizing */
+      .boxone {
+        background-color: blue;
+        padding-left: 50px;
+        margin-top: 100px;
+        border: 15px solid black;
+        width: 300px;
+        box-sizing: border-box;
+      }
+      .boxtwo {
+        background-color: greenyellow;
+        margin-top: 100px;
+        border: 15px solid black;
+        width: 300px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="home">Home</div>
+      <div class="search">Search</div>
+      <div class="logout">Logout</div>
+    </nav>
+
+    <!-- belajar box-sizing -->
+    <div class="boxone">Coba box-sizing</div>
+    <div class="boxtwo">Coba box-sizing</div>
+  </body>
+</html>
